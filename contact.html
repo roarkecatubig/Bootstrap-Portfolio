@@ -34,15 +34,67 @@
         text-align: center;
     }
 
+    #name_plate{
+        background: #4aaaa5;
+        height: 85%;
+        color: white;
+        text-align: center;
+    }
+
+    #nav_bar{
+        padding-top: 30px;
+    }
+
+    #footer{
+        text-align: center;
+        background: lightgrey;
+        color: white;
+        height: 100%;
+    }
+
+    /* Contact Sheet Styling */
+
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 </style>
 
 <body>
     <div class="container">
+    <!--vvv Header HTML vvv -->
         <div class="row">
-          <div class="col">
-            Roarke Catubig
+          <div class="col-3">
+            <figure id="name_plate"><h2>Roarke Catubig</h2></figure>
           </div>
-          <div class="col">
+          <div id="nav_bar" class="col">
             <ul class="nav justify-content-end mb-3">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">About</a>
@@ -56,12 +108,23 @@
               </ul>
           </div>
         </div>
+    <!-- ^^^ Header HTML ^^^ -->
+    <!-- vvv Main Section vvv HTML -->
         <div class="row">
             <div class="col-8">
               <h2>Contact</h2>
-              <img id="profile_pic" src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" height="100" width="150">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae elit nec erat lacinia dignissim vel nec tellus. Maecenas velit tortor, luctus id ligula ac, posuere porta odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse malesuada placerat tellus, ac luctus elit varius at. Donec faucibus lacinia quam, sit amet rhoncus lectus aliquam a. Donec imperdiet sem ut hendrerit ultrices. Integer aliquam enim sit amet erat viverra, a consectetur quam cursus. Proin hendrerit massa eget tortor malesuada, at suscipit urna vestibulum. Mauris finibus erat pulvinar luctus aliquam. </p>
+              <form id="contact_form" action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="John Smith">
+            
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+              
+                <input type="submit" value="Submit">
+              </form>
             </div>
+        <!-- ^^^ Main Section HTML ^^^ -->
+        <!-- vvv Connect Box HTML vvv -->
             <div class="col">
                 <div class="row">
                     <h3>Connect with Me</h3>
@@ -80,9 +143,11 @@
                 </div>
             </div>
         </div>
+        <!-- ^^^ Connect Box HTML ^^^ -->
+        <!-- vvv Footer HTML vvv -->
         <div class="row">
-            <div class="col">
-              Footer Placeholder
+            <div id="footer" class="col">
+                Copyright&copy; 2018 Roarke Catubig
             </div>
         </div>
     </div>
