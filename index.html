@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <title>About Me - Roarke Catubig</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
@@ -13,6 +14,7 @@
         width: 980px;
         margin: auto;
         align-content: center;
+        background-image: url("../Responsive-Portfolio/Basic-Porfolio/assets/images/gplaypattern/gplaypattern/skyscraper.png");
     }
 
     #profile_pic{
@@ -34,15 +36,26 @@
         text-align: center;
     }
 
+    #header{
+        background: white;
+    }
+
+    #header_margin{
+        margin-bottom: 20px;
+    }
+
     #name_plate{
         background: #4aaaa5;
-        height: 85%;
+        height: 100%; 
         color: white;
         text-align: center;
+
     }
 
     #nav_bar{
         padding-top: 30px;
+        background: white;
+
     }
 
     #footer{
@@ -50,6 +63,11 @@
         background: lightgrey;
         color: white;
         height: 100%;
+        margin-top: 20px;
+    }
+
+    #horizontal_gap{
+        margin-left: 20px;
     }
 
 </style>
@@ -57,9 +75,12 @@
 <body>
     <div class="container">
     <!--vvv Header HTML vvv -->
-        <div class="row">
-          <div class="col-3">
-            <figure id="name_plate"><h2>Roarke Catubig</h2></figure>
+        <div id="header_margin" class="row">
+            <div id="header" class="col-1">
+                <!-- Gap -->
+            </div>
+          <div id="name_plate" class="col-3">
+                <h1>Roarke Catubig</h1>
           </div>
           <div id="nav_bar" class="col">
             <ul class="nav justify-content-end mb-3">
@@ -73,24 +94,30 @@
                   <a class="nav-link" href="#">Contact</a>
                 </li>
               </ul>
-          </div>
+            </div>
+            <div id="header" class="col-1">
+                <!-- Gap -->
+            </div>
         </div>
     <!-- ^^^ Header HTML ^^^ -->
     <!-- vvv Main Section vvv HTML -->
         <div class="row">
-            <div class="col-8">
+            <div class="col-1">
+                <!-- Gap -->
+            </div>
+            <div id="header" class="col-7">
               <h2>About Me</h2>
               <img id="profile_pic" src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" height="100" width="150">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae elit nec erat lacinia dignissim vel nec tellus. Maecenas velit tortor, luctus id ligula ac, posuere porta odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse malesuada placerat tellus, ac luctus elit varius at. Donec faucibus lacinia quam, sit amet rhoncus lectus aliquam a. Donec imperdiet sem ut hendrerit ultrices. Integer aliquam enim sit amet erat viverra, a consectetur quam cursus. Proin hendrerit massa eget tortor malesuada, at suscipit urna vestibulum. Mauris finibus erat pulvinar luctus aliquam. </p>
             </div>
     <!-- ^^^ Main Section HTML ^^^ -->
     <!-- vvv Connect Box HTML vvv -->
-            <div class="col">
-                <div class="row">
+            <div id="horizontal_gap" class="col">
+                <div id="header" class="row">
                     <h3>Connect with Me</h3>
                     <figure></figure>
                 </div>
-                <div class="row">
+                <div id="header" class="row">
                     <div class="col-4">
                         <img id="connect_photo" src="https://image.flaticon.com/icons/svg/38/38401.svg" height="60" width="60">
                     </div>
