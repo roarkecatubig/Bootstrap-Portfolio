@@ -3,80 +3,14 @@
 <head>
     <title>About Me - Roarke Catubig</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<style>
-    [class*="col-"], .col {
-    border: 1px dashed #ddd;
-}
-
-    body{
-        width: 980px;
-        margin: auto;
-        align-content: center;
-        background-image: url("../Responsive-Portfolio/Basic-Porfolio/assets/images/gplaypattern/gplaypattern/skyscraper.png");
-    }
-
-    #profile_pic{
-        float: left;
-        padding: 10px;
-    }
-
-    figure{
-        height: 1px;
-        width: 100%;
-        background: lightgrey;
-        margin: 10px 10px 10px 10px;
-
-    }
-
-    h3{
-        padding: 30px 10px 0px 10px;
-        margin: auto;
-        text-align: center;
-    }
-
-    #header{
-        background: white;
-    }
-
-    #header_margin{
-        margin-bottom: 20px;
-    }
-
-    #name_plate{
-        background: #4aaaa5;
-        height: 100%; 
-        color: white;
-        text-align: center;
-
-    }
-
-    #nav_bar{
-        padding-top: 30px;
-        background: white;
-
-    }
-
-    #footer{
-        text-align: center;
-        background: lightgrey;
-        color: white;
-        height: 100%;
-        margin-top: 20px;
-    }
-
-    #horizontal_gap{
-        margin-left: 20px;
-    }
-
-</style>
 
 <body>
     <div class="container">
     <!--vvv Header HTML vvv -->
         <div id="header_margin" class="row">
-            <div id="header" class="col-1">
+            <div id="background" class="col-1">
                 <!-- Gap -->
             </div>
           <div id="name_plate" class="col-3">
@@ -85,17 +19,17 @@
           <div id="nav_bar" class="col">
             <ul class="nav justify-content-end mb-3">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">About</a>
+                  <a class="nav-link active" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
-            <div id="header" class="col-1">
+            <div id="background" class="col-1">
                 <!-- Gap -->
             </div>
         </div>
@@ -105,29 +39,35 @@
             <div class="col-1">
                 <!-- Gap -->
             </div>
-            <div id="header" class="col-7">
-              <h2>About Me</h2>
-              <img id="profile_pic" src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" height="100" width="150">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae elit nec erat lacinia dignissim vel nec tellus. Maecenas velit tortor, luctus id ligula ac, posuere porta odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse malesuada placerat tellus, ac luctus elit varius at. Donec faucibus lacinia quam, sit amet rhoncus lectus aliquam a. Donec imperdiet sem ut hendrerit ultrices. Integer aliquam enim sit amet erat viverra, a consectetur quam cursus. Proin hendrerit massa eget tortor malesuada, at suscipit urna vestibulum. Mauris finibus erat pulvinar luctus aliquam. </p>
+            <div id="background" class="col-7">
+                <section>
+                    <h2>About Me</h2>
+                    <figure></figure>
+                    <img id="profile_pic" src="http://nick.mtvnimages.com/nick/video/images/nick/spongebob-050-full-episode-16x9.jpg?quality=0.60" height="100" width="150">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae elit nec erat lacinia dignissim vel nec tellus. Maecenas velit tortor, luctus id ligula ac, posuere porta odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse malesuada placerat tellus, ac luctus elit varius at. Donec faucibus lacinia quam, sit amet rhoncus lectus aliquam a. Donec imperdiet sem ut hendrerit ultrices. Integer aliquam enim sit amet erat viverra, a consectetur quam cursus. Proin hendrerit massa eget tortor malesuada, at suscipit urna vestibulum. Mauris finibus erat pulvinar luctus aliquam. </p>
+                </section>
             </div>
     <!-- ^^^ Main Section HTML ^^^ -->
     <!-- vvv Connect Box HTML vvv -->
             <div id="horizontal_gap" class="col">
-                <div id="header" class="row">
-                    <h3>Connect with Me</h3>
+                <div id="background" class="row">
+                    <h4>Connect with Me</h4>
                     <figure></figure>
                 </div>
-                <div id="header" class="row">
-                    <div class="col-4">
+                <div id="contact_icons" class="row">
+                    <div id="icons" class="col-4">
                         <img id="connect_photo" src="https://image.flaticon.com/icons/svg/38/38401.svg" height="60" width="60">
                     </div>
-                    <div class="col-4">
+                    <div id="icons" class="col-4">
                         <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-512.png" height="60" width="60">
                     </div>
-                    <div class="col-4">
+                    <div id="icons" class="col-4">
                         <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" height="60" width="60">
                     </div>
                 </div>
+            </div>
+            <div class="col-1">
+                <!-- Gaps -->
             </div>
         </div>
     <!-- ^^^ Connect Box HTML ^^^ -->
