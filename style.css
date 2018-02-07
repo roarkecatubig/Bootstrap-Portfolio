@@ -5,29 +5,9 @@
 }
 
     body{
-        width: 980px;
         margin: auto;
         align-content: center;
         background-image: url("../Responsive-Portfolio/Basic-Porfolio/assets/images/gplaypattern/gplaypattern/skyscraper.png");
-    }
-
-    #profile_pic{
-        float: left;
-        padding: 10px;
-    }
-
-    figure{
-        height: 1px;
-        width: 100%;
-        background: lightgrey;
-        margin: 10px 10px 10px 10px;
-
-    }
-
-    h4{
-        margin: auto;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
     }
 
     #background{
@@ -36,51 +16,58 @@
 
     #header_margin{
         margin-bottom: 20px;
+        width: 100%;
     }
 
     #name_plate{
+        padding-top: 15px;
         background: #4aaaa5;
-        height: 100%; 
         color: white;
         text-align: center;
 
+    }
+
+    #contact_box{
+        background: white;
+    }
+
+    #connect_icons{
+        background: white;
+    }
+
+    #connect_photo{
+        margin: 10px auto 20px auto;
+    }
+
+    h3{
+        margin: 10px auto 10px auto;
+    }
+
+    #footer{
+        background: lightgrey;
+        color: white;
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        border-top: 5px solid #4aaaa5;
+        padding: 20px;
     }
 
     #nav_bar{
         padding-top: 30px;
         background: white;
-
+        color: lightgrey;
     }
 
-    a{
+    a {
         text-decoration: none;
-        color: #777777;
     }
 
-    #contact_icons{
+    #main{
         background: white;
-        padding: 5px 5px 5px 5px;
-    }
-
-    #icons{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #footer{
-        text-align: center;
-        background: lightgrey;
-        color: white;
-        height: 100%;
-        margin-top: 20px;
-    }
-
-    #horizontal_gap{
-        margin-left: 20px;
-    }
-
-    section{
-        padding: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 40px;
     }
 
       /* Contact Sheet Styling */
