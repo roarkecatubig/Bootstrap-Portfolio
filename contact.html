@@ -2,77 +2,74 @@
 
 <head>
     <title>Contact - Roarke Catubig</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <!--vvv Header HTML vvv -->
-            <div id="header_margin" class="row">
-                <div id="background" class="col-1">
-                    <!-- Gap -->
-                </div>
-                <div id="name_plate" class="col-3">
-                    <h1>Roarke Catubig</h1>
-                </div>
-                <div id="nav_bar" class="col">
-                    <ul class="nav justify-content-end mb-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div id="background" class="col-1">
-                    <!-- Gap -->
-                </div>
+    <div class="container-fluid">
+    <!--vvv Header HTML vvv -->
+        <div id="header_margin" class="row justify-content-center">
+          <div id="background" class="col-1">
+                <!-- Gap -->
+          </div>
+          <div id="name_plate" class="col-sm-12 col-md-2">
+                <h2>Roarke Catubig</h2>
+          </div>
+          <div id="nav_bar" class="col-sm-12 col-md-7">
+            <ul class="nav justify-content-end mb-3">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-    <!-- ^^^ Header HTML ^^^ -->
-    <!-- vvv Main Section vvv HTML -->
-        <div class="row">
-            <div class="col-8">
-              <h2>Contact</h2>
-              <form id="contact_form" action="/action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="fullname" placeholder="John Smith">
-            
-                <label for="email">E-mail</label>
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-              
-                <input type="submit" value="Submit">
-              </form>
+        </div>
+        <div class="row justify-content-center">
+            <div id="main" class="col-sm-12 col-md-5">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="John Smith">
+                        
+                    <label for="fname">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                        
+                    <label for="subject">Message</label>
+                    <textarea id="message" name="message" style="height:200px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-        <!-- ^^^ Main Section HTML ^^^ -->
-        <!-- vvv Connect Box HTML vvv -->
-            <div class="col">
-                <div id="header" class="row">
+            <div class="col-sm-12 col-md-3">
+                <div id="contact_box" class="row">
                     <h3>Connect with Me</h3>
                     <figure></figure>
                 </div>
-                <div id="header" class="row">
+                <div id="connect_icons" class="row">
                     <div class="col-4">
-                        <img id="connect_photo" src="https://image.flaticon.com/icons/svg/38/38401.svg" height="60" width="60">
+                        <a href="https://github.com/roarkecatubig" target="_blank">
+                        <img id="connect_photo" src="https://image.flaticon.com/icons/svg/38/38401.svg" alt="git icon" height=60 width=60></a>
                     </div>
                     <div class="col-4">
-                        <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-512.png" height="60" width="60">
+                        <a href="https://www.linkedin.com/in/roarke-catubig" target="_blank">
+                        <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-512.png" alt="git icon" height=60 width=60></a>
                     </div>
                     <div class="col-4">
-                        <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" height="60" width="60">
+                        <a href="https://stackoverflow.com/users/8902915/r-catubig?tab=profile" target="_blank">
+                        <img id="connect_photo" src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" alt="git icon" height=60 width=60></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- ^^^ Connect Box HTML ^^^ -->
-        <!-- vvv Footer HTML vvv -->
-        <div class="row">
-            <div id="footer" class="col">
-                Copyright&copy; 2018 Roarke Catubig
+        <div class="row justify-content-center">
+            <div id="footer" class="col-10">
+                <h4>Copyright&copy; Roarke Catubig 2018</h4>
             </div>
         </div>
     </div>
