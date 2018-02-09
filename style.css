@@ -48,6 +48,10 @@
         margin: 10px auto 20px auto;
     }
 
+    h2{
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
     h3{
         margin: 10px auto 10px auto;
         text-align: center;
@@ -77,20 +81,24 @@
         color: #777777;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
-
+    .footer > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
     #main{
         background: white;
         padding: 20px;
         margin-bottom: 20px;
         margin-right: 40px;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        max-width: 650px;
         
     }
 
     .portfolio-pics{
-        width: 100%;
-        height: 100%;
-        position: relative;
+        width: 45%;
+        padding: 0 2% 2% 0;
         }
 
     #hangman{
@@ -98,12 +106,13 @@
         color: white;
         text-align: center;
         font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 88%;
-        top: 60%;
+        width: 39.7%;
+        top: 30%;
         height: 40px;
         position: absolute;
         z-index: 1;
         font-size: x-large;
+        margin-bottom: 10px;
     }
 
     #rpg{
@@ -111,12 +120,14 @@
         color: white;
         text-align: center;
         font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 88%;
-        top: 60%;
+        width: 39.7%;
+        right: 14%;
+        top: 30%;
         height: 40px;
         position: absolute;
         z-index: 1;
         font-size: x-large;
+        margin-bottom: 10px;
     }
 
     #trivia{
@@ -124,12 +135,13 @@
         color: white;
         text-align: center;
         font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 88%;
-        top: 60%;
+        width: 39.7%;
+        top: 59%;
         height: 40px;
         position: absolute;
         z-index: 1;
         font-size: x-large;
+        margin-bottom: 10px;
     }
 
     #rutgers{
@@ -137,12 +149,15 @@
         color: white;
         text-align: center;
         font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 88%;
-        top: 60%;
+        width: 39.7%;
+        top: 59%;
+        right: 14%;
         height: 40px;
         position: absolute;
         z-index: 1;
-        font-size: x-large;
+        font-size: medium;
+        padding-top: 1%;
+        margin-bottom: 10px;
     }
 
     #rps{
@@ -150,12 +165,14 @@
         color: white;
         text-align: center;
         font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 88%;
-        top: 60%;
+        width: 39.7%;
+        top: 87%;
         height: 40px;
         position: absolute;
         z-index: 1;
-        font-size: x-large;
+        font-size: medium;
+        padding-top: 1%;
+        margin-bottom: 10px;
     }
       /* Contact Sheet Styling */
 
@@ -193,44 +210,59 @@
     /* Media query used specifically to uniformly adjust photos within the page */
     @media only screen and (max-width: 640px) {
         /* For mobile phones: */
+            
+            #main{
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .portfolio-pics{
+                width: 100%;
+                height: 19%;
+                padding: 0 0 3% 0;
+                }    
+
             #hangman{
-                width: 81%;
-                top: 50%;
-                font-size: medium;
-                padding-top: 10px;
+                font-size: xx-large;
+                width: 89%;
+                top: 19%;
+                height: 40px;
             }
 
             #rpg{
-                width: 81%;
-                top: 50%;
-                font-size: medium;
-                padding-top: 10px;
+                font-size: xx-large;
+                width: 89%;
+                top: 37%;
+                right: 6%;
+                height: 40px;
             }
 
             #trivia{
-                width: 81%;
-                top: 50%;
-                font-size: medium;
-                padding-top: 10px;
+                font-size: xx-large;
+                width: 89%;
+                top: 55%;
+                height: 40px;
             }
 
             #rutgers{
-                width: 81%;
-                top: 50%;
-                font-size: small;
-                padding-top: 10px;
+                font-size: x-large;
+                width: 88%;
+                top: 74%;
+                right: 6%;
+                height: 40px;
             }
 
             #rps{
-                width: 81%;
-                top: 50%;
-                font-size: small;
-                padding-top: 10px;
+                width: 89%;
+                top: 92%;
+                height: 40px;
+                font-size: x-large;
+                padding-top: 1%;
             }
 
             #connect_photo, img{
-                height: 45px;
-                width: 45px;
+                height: 75%;
+                width: 100%;
                 align-content: center;
             }
 
@@ -240,6 +272,10 @@
 
             .profile-photo{
                 height: 18%;
+            }
+
+            .mb-3{
+                margin-right: 10%;
             }
         
         }
