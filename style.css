@@ -207,6 +207,8 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+
+
 /* One media query used specifically to uniformly adjust photos within the page */
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
