@@ -97,8 +97,9 @@ a{
 }
 
 .portfolio-pics{
-    width: 45%;
     padding: 0 2% 2% 0;
+    height: 150px;
+    width: 250px;
     }
 
 #hangman{
@@ -106,8 +107,8 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    top: 30%;
+    width: 45%;
+    top: 23%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -120,9 +121,9 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    right: 14%;
-    top: 30%;
+    width: 45.25%;
+    right: 4.75%;
+    top: 23%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -135,8 +136,8 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    top: 59%;
+    width: 45%;
+    top: 45%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -149,9 +150,9 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    top: 59%;
-    right: 14%;
+    width: 45.25%;
+    right: 4.75%;
+    top: 45%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -165,8 +166,8 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    top: 87%;
+    width: 45%;
+    top: 67%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -180,10 +181,24 @@ a{
     color: white;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 39.7%;
-    top: 87%;
+    width: 45.25%;
+    right: 4.75%;
+    top: 67%;
     height: 40px;
-    right: 14%;
+    position: absolute;
+    z-index: 1;
+    font-size: medium;
+    padding-top: 1%;
+    margin-bottom: 10px;
+}
+
+#train{
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 45.25%;
+    top: 89%;
     height: 40px;
     position: absolute;
     z-index: 1;
