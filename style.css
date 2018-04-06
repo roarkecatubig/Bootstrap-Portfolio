@@ -206,6 +206,21 @@ a{
     padding-top: 1%;
     margin-bottom: 10px;
 }
+
+#liri{
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 45.25%;
+    top: 89%;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    font-size: medium;
+    padding-top: 1%;
+    margin-bottom: 10px;
+}
   /* Contact Sheet Styling */
 
   input[type=text], select, textarea {
