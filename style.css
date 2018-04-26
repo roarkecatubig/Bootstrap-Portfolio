@@ -108,7 +108,7 @@ a{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45%;
-    top: 23%;
+    top: 19%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -123,7 +123,7 @@ a{
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45.25%;
     right: 4.75%;
-    top: 23%;
+    top: 19%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -137,7 +137,7 @@ a{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45%;
-    top: 45%;
+    top: 37%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -152,7 +152,7 @@ a{
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45.25%;
     right: 4.75%;
-    top: 45%;
+    top: 37%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -167,7 +167,7 @@ a{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45%;
-    top: 67%;
+    top: 55%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -183,7 +183,7 @@ a{
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45.25%;
     right: 4.75%;
-    top: 67%;
+    top: 55%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -198,7 +198,7 @@ a{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45.25%;
-    top: 89%;
+    top: 73%;
     height: 40px;
     position: absolute;
     z-index: 1;
@@ -213,7 +213,22 @@ a{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 45.25%;
-    top: 89%;
+    top: 73%;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    font-size: medium;
+    padding-top: 1%;
+    margin-bottom: 10px;
+}
+
+#friend{
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 45.25%;
+    top: 91%;
     height: 40px;
     position: absolute;
     z-index: 1;
